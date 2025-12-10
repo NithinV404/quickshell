@@ -22,11 +22,18 @@ PanelWindow {
         bottom: 0
     }
 
-    implicitHeight: 36
+    implicitHeight: 30
     color: "transparent"
 
     // Global tooltip popup
     TooltipPopup {
+        parentWindow: bar
+        colorScheme: bar.colorScheme
+    }
+
+    // Control Center popup
+    ControlCenter {
+        id: controlCenter
         parentWindow: bar
         colorScheme: bar.colorScheme
     }
@@ -56,10 +63,11 @@ PanelWindow {
             }
 
             SystemTray {
+                id: systemTray
                 colorScheme: bar.colorScheme
                 anchors.right: clock.left
-                anchors.rightMargin: 8
                 anchors.verticalCenter: parent.verticalCenter
+                onOpenControlCenter: controlCenter.toggle()
             }
 
             Clock {

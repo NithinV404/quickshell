@@ -44,7 +44,7 @@ Row {
                             return root.colorScheme.getColor("on_tertiary_container");
                         else
                             (hasWindows);
-                        return root.colorScheme.getColor("on_surface");
+                        return root.colorScheme.getColor("primary");
                     }
 
                     Behavior on width {

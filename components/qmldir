@@ -5,3 +5,10 @@ Workspaces Workspaces.qml
 SystemTray SystemTray.qml
 TooltipArea TooltipArea.qml
 TooltipPopup TooltipPopup.qml
+DropdownArea DropdownArea.qml
+DropdownPopup DropdownPopup.qml
+NetworkDropdown NetworkDropdown.qml
+BatteryDropdown BatteryDropdown.qml
+ControlCenter ControlCenter.qml
+WifiPanel WifiPanel.qml
+BluetoothPanel BluetoothPanel.qml

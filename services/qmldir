@@ -1,3 +1,6 @@
 ColorScheme ColorScheme.qml
 singleton NetworkService NetworkService.qml
 singleton TooltipService TooltipService.qml
+singleton DropdownService DropdownService.qml
+singleton BluetoothService BluetoothService.qml
+singleton SystemService SystemService.qml
