@@ -1,0 +1,7 @@
+Bar Bar.qml
+WindowTitle WindowTitle.qml
+Clock Clock.qml
+Workspaces Workspaces.qml
+SystemTray SystemTray.qml
+TooltipArea TooltipArea.qml
+TooltipPopup TooltipPopup.qml
